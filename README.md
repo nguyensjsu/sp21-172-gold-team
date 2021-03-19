@@ -1,1 +1,2 @@
-# sp21-172-gold-team
+# Team Project (Replace with your Team Name and Journal)
+
