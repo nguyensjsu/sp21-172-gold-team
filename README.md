@@ -7,7 +7,7 @@ Vishnu Adda: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals
 
 Charles Im: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/Charles%20Im/Week1
 
-Bhavanna Mahendraker:
+Bhavana Mahendraker: https://github.com/nguyensjsu/sp21-172-gold-team/edit/main/Journals/Bhavana%20Mahendraker/Week1
 
 ------------------------------------
 
