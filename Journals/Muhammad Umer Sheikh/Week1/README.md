@@ -8,4 +8,4 @@ My second challenge is to figure out the font and color scheme that is similar t
 
 The homepage I created for Starbucks homepage is below:
 
-![](sp21-172-gold-team/blob/main/Images/Hompage.PNG)
+![](nguyensjsu/sp21-172-gold-team/blob/main/Images/Hompage.PNG)
