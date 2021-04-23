@@ -9,4 +9,6 @@ Charles Im: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/
 
 Bhavanna Mahendraker:
 
+------------------------------------
+
 ![](Images/Cards.PNG)
