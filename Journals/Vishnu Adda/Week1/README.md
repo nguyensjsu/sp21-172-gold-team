@@ -6,10 +6,16 @@ I set up the following meetings for our team:
 - Friday 4/16 @ 1 pm
 - Thursday 4/22 @ 12 pm
 
+The below image shows the task board with my card highlighted.
+
+![Task](images/task-board.png)
+
 ## Task
 The task delegated to me: Design the Cashier App UI
 
 For this task, I essentially converted the cashier UI from the Canvas assignment into HTML and CSS. This is an open-ended design, as it mostly just creates dropdown menus for some order options and leaves some space for spring fields. I plan on talking with my group to finalize these options before closing the issue.
+
+Commit ID: f95866108536dd239479c6fa2666e433a63f9026
 
 The below image shows the WIP UI
 
