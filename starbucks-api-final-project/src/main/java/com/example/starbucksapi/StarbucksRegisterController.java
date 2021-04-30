@@ -2,6 +2,8 @@ package com.example.starbucksapi;
 
 import java.util.List;
 import java.util.Random;
+import java.util.HashMap;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -41,6 +44,9 @@ class StarbucksRegisterController {
     StarbucksRegisterController(StarbucksRegisterRepository repository) {
         this.repository = repository;
     }
+
+    private HashMap<String, StarbucksRegister> registersHash = new HashMap<>();
+
 
     @PostMapping("/registers")
     @ResponseStatus(HttpStatus.CREATED)
@@ -68,10 +74,12 @@ class StarbucksRegisterController {
         msg.setStatus("All Registers Cleared!");
         return msg;
     }
-
+    
     @GetMapping("/registers/{regid}")
     StarbucksRegister getOne(@PathVariable String regid, HttpServletResponse reponse) {
-        StarbucksRegister register = repository.findByRegister(regid);
+        //StarbucksRegister register = repository.findByRegister(regid);
+        StarbucksRegister register = registersHash.get(regid);
+
         if (register == null)
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error. Register Not Found!");
         return register;
@@ -80,7 +88,8 @@ class StarbucksRegisterController {
     
     @PostMapping("/registers/activate/{regid}")
     StarbucksRegister activate(@PathVariable String regid, HttpServletResponse reponse) {
-        StarbucksRegister register = repository.findByRegister(regid);
+        //StarbucksRegister register = repository.findByRegister(regid);
+        StarbucksRegister register = registersHash.get(regid);
         if (register == null)
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error. Register Not Found!");
         if (register.getRegid().equals(regid)) {
@@ -95,16 +104,19 @@ class StarbucksRegisterController {
 
     @DeleteMapping("/registers/{regid}")
     Message deleteOne(@PathVariable String regid, HttpServletResponse reponse) {
-        StarbucksRegister register = repository.findByRegister(regid);
+        //StarbucksRegister register = repository.findByRegister(regid);
+        StarbucksRegister register = registersHash.get(regid);
+
         // need to check for any active orders before deleting
         if (register == null)
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error. Register Not Found!");
         
-        repository.deleteByRegid(register.getRegid());
+        registersHash.remove(regid);
         Message msg = new Message();
         msg.setStatus("Register: {regid} Cleared!");
         return msg;
         
     }
+
 
 }
