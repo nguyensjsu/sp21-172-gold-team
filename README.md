@@ -3,7 +3,7 @@
 ## Week 2
 Muhammad Umer Sheikh: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/Muhammad%20Umer%20Sheikh/Week2
 
-Vishnu Adda: 
+Vishnu Adda: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/Vishnu%20Adda/Week2
 
 Charles Im: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/Charles%20Im/Week2
 
