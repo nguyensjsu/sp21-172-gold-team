@@ -5,7 +5,7 @@ Muhammad Umer Sheikh: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main
 
 Vishnu Adda: 
 
-Charles Im: 
+Charles Im: https://github.com/nguyensjsu/sp21-172-gold-team/tree/main/Journals/Charles%20Im/Week2
 
 Bhavana Mahendraker: https://github.com/nguyensjsu/sp21-172-gold-team/edit/main/Journals/Bhavana%20Mahendraker/Week2
 
