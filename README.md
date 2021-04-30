@@ -12,3 +12,15 @@ Bhavana Mahendraker: https://github.com/nguyensjsu/sp21-172-gold-team/edit/main/
 ------------------------------------
 
 ![](Images/Cards.PNG)
+
+
+------------------------------------
+## Week2
+
+Muhammad Umer Sheikh:
+
+Vishnu Adda: 
+
+Charles Im:
+
+Bhavana Mahendraker:
