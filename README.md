@@ -10,6 +10,7 @@ Charles Im:
 Bhavana Mahendraker: https://github.com/nguyensjsu/sp21-172-gold-team/edit/main/Journals/Bhavana%20Mahendraker/Week2
 
 **------------------------------------**
+
 Insert tasks
 ------------------------------------
 ## Week 1
