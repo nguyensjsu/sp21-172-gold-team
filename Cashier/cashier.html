@@ -10,27 +10,28 @@
     <h1 class="main-header">Welcome to Starbucks Reserved</h1>
 
     <div class="input-body">
-    <label for="drink">Drink:</label>
-    <select id="drink">
-        <option value="latte">Latte</option>
-        <option value="cappuccino">Cappuccino</option>
-        <option value="iced-coffee">Iced Coffee</option>
-        <option value="mocha">Mocha</option>
+    <label for="drink">Drink:</label>  
+    <select id="drink" th:field="*{drink}">   <!-- added th:field="*{drink}" -->
+
+        <option th:value="latte">Latte</option>   <!-- changed value to th:value -->
+        <option th:value="cappuccino">Cappuccino</option>   <!-- changed value to th:value -->
+        <option th:value="iced-coffee">Iced Coffee</option>   <!-- changed value to th:value -->
+        <option th:value="mocha">Mocha</option>   <!-- changed value to th:value -->
     </select>
 
     <label for="milk">Milk:</label>
-    <select id="milk">
-        <option value="skim">Skim Milk</option>
-        <option value="two-percent">2%</option>
-        <option value="whole">Whole Milk</option>
-        <option value="soy">Soy Milk</option>
+    <select id="milk" th:field="*{milk}">   <!-- added th:field="*{milk}" -->
+        <option th:value="skim">Skim Milk</option>   <!-- changed value to th:value -->
+        <option th:value="two-percent">2%</option>   <!-- changed value to th:value -->
+        <option th:value="whole">Whole Milk</option>   <!-- changed value to th:value -->
+        <option th:value="soy">Soy Milk</option>   <!-- changed value to th:value -->
     </select>
 
     <label for="size">Size:</label>
-    <select id="size">
-        <option value="tall">Tall</option>
-        <option value="grande">Grande</option>
-        <option value="venti">Venti</option>
+    <select id="size" th:field="*{size}">   <!-- added th:field="*{size}" -->
+        <option th:value="tall">Tall</option>   <!-- changed value to th:value -->
+        <option th:value="grande">Grande</option>   <!-- changed value to th:value -->
+        <option th:value="venti">Venti</option>   <!-- changed value to th:value -->
     </select>
 
     <p>Register: </p>
@@ -39,10 +40,10 @@
 
     <div class="gen-container">
     <label for="store">Select Store:</label>
-    <select id="store">
-        <option value="campbell">Campbell</option>
-        <option value="milpitas">Milpitas</option>
-        <option value="santa-clara">Santa Clara</option>
+    <select id="store" th:field="*{store}">   <!-- added th:field="*{store}" -->
+        <option th:value="campbell">Campbell</option>   <!-- changed value to th:value -->
+        <option th:value="milpitas">Milpitas</option>   <!-- changed value to th:value -->
+        <option th:value="santa-clara">Santa Clara</option>   <!-- changed value to th:value -->
     </select>
     </div>
 
@@ -55,6 +56,12 @@
     <button>Place Order</button>
     <button>Clear Order</button>
     </div>
+
+
+    <div class="message">    <!-- Added div class="message" -->
+    <span th:text="${message}" />
+    </div>
+
 
 </body>
 </html>
