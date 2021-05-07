@@ -1,15 +1,10 @@
-### Week 2 (4/22 - 4/29)
+### Week 3 (4/29 - 5/06)
 
-I worked on the register entity with Bhavana again. 
-I helped her fix the dependency problem.
-This took some time because of the interwoven dependencies.
-We had to remove the jpa repository queries for the register entity and tweaked register controller.
-It was an issue with multiple jpa repositories interacting with each other and causing errors with the bean factory. 
+I worked on some of the backend; mainly the thyme leaf fields in the cashier html page and added some message portion. 
 
-I started the mysql implementation.
-I created a prototype docker-compose.yaml for a mysql server.
 
-![](images/mysql-docker.PNG)
+I helped Bhavana with rewards part as well as some computer problems she was having. 
 
-I will probably have to switch to a different task due to the group's priorities.
-We somewhat agreed that we focus on the core app first.
+![](images/cashier.PNG)
+
+
