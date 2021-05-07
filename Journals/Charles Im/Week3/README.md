@@ -5,6 +5,6 @@ I worked on some of the backend; mainly the thyme leaf fields in the cashier htm
 
 I helped Bhavana with rewards part as well as some computer problems she was having. 
 
-![](images/cashier.PNG)
+![](images/cashier.png)
 
 
