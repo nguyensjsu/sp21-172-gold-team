@@ -237,6 +237,8 @@ public class StarbucksOrderController {
         }
 
         double new_balance = balance - price;
+        int old_rewards = card.getRewards();
+        card.setRewards(old_rewards + (int)price);
         card.setBalance(new_balance);
         String status = "Paid with Card: " + cardnum + " Balance: $" + new_balance + ".";
         active.setStatus(status);
