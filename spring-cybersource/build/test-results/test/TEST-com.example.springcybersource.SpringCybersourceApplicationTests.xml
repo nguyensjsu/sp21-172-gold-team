@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springcybersource.SpringCybersourceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T03:25:45" hostname="Addas-iMac.T-mobile.com" time="0.302">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.springcybersource.SpringCybersourceApplicationTests" time="0.302"/>
+  <system-out><![CDATA[20:25:41.512 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:25:41.526 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:25:41.560 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.springcybersource.SpringCybersourceApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:25:41.572 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.springcybersource.SpringCybersourceApplicationTests], using SpringBootContextLoader
+20:25:41.586 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springcybersource.SpringCybersourceApplicationTests]: class path resource [com/example/springcybersource/SpringCybersourceApplicationTests-context.xml] does not exist
+20:25:41.587 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springcybersource.SpringCybersourceApplicationTests]: class path resource [com/example/springcybersource/SpringCybersourceApplicationTestsContext.groovy] does not exist
+20:25:41.587 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.springcybersource.SpringCybersourceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:25:41.588 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springcybersource.SpringCybersourceApplicationTests]: SpringCybersourceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:25:41.641 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.springcybersource.SpringCybersourceApplicationTests]
+20:25:41.706 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/adda/Desktop/CMPE172-Labs/cmpe172-vishnu-adda/labs/lab7/spring-cybersource/build/classes/java/main/com/example/springcybersource/SpringCybersourceApplication.class]
+20:25:41.707 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springcybersource.SpringCybersourceApplication for test class com.example.springcybersource.SpringCybersourceApplicationTests
+20:25:41.792 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.springcybersource.SpringCybersourceApplicationTests]: using defaults.
+20:25:41.793 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:25:41.801 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax.servlet.ServletContext]
+20:25:41.803 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org.springframework.transaction.interceptor.TransactionAttributeSource]
+20:25:41.803 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org.springframework.transaction.interceptor.TransactionAttribute]
+20:25:41.803 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@91a413f9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47c0cd6a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53051889, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ba5e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8007dab4, org.springframework.test.context.event.EventPublishingTestExecutionListener@5bcb7a5e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@e886e548, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7994eea8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fec3d6aa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9a9989a1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2c8a6c55, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c5d961c]
+20:25:41.807 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7505ef3f testClass = SpringCybersourceApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@90cff3bb testClass = SpringCybersourceApplicationTests, locations = '{}', classes = '{class com.example.springcybersource.SpringCybersourceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@492883df, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@70d6108e, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@48928c67, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5729e993, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@d284546, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@e7432890], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+20:25:41.817 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7505ef3f testClass = SpringCybersourceApplicationTests, testInstance = com.example.springcybersource.SpringCybersourceApplicationTests@3b3c84d2, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@90cff3bb testClass = SpringCybersourceApplicationTests, locations = '{}', classes = '{class com.example.springcybersource.SpringCybersourceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@492883df, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@70d6108e, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@48928c67, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5729e993, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@d284546, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@e7432890], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+20:25:41.835 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.4)
+
+2021-04-24 20:25:42.085  INFO 1573 --- [    Test worker] c.e.s.SpringCybersourceApplicationTests  : Starting SpringCybersourceApplicationTests using Java 11.0.10 on Addas-iMac.T-mobile.com with PID 1573 (started by adda in /Users/adda/Desktop/CMPE172-Labs/cmpe172-vishnu-adda/labs/lab7/spring-cybersource)
+2021-04-24 20:25:42.088  INFO 1573 --- [    Test worker] c.e.s.SpringCybersourceApplicationTests  : No active profile set, falling back to default profiles: default
+2021-04-24 20:25:42.484  INFO 1573 --- [    Test worker] c.e.s.SpringCybersourceApplicationTests  : Started SpringCybersourceApplicationTests in 0.646 seconds (JVM running for 1.784)
+===== CYBERSOURCE PAYMENT TEST =====
+apitest.cybersource.com
+71d25056-3828-4354-9f1c-24118ad93f74
+8sKNy5kIuiSGJ8syz8Z85dqgLi72JFqxfmSLuwLULx4=
+vadda
+
+
+Auth Request: {"reference":"Order Number: 12345","billToFirstName":"John","billToLastName":"Doe","billToAddress":"123 N. Main St.","billToZipCode":"10001","billToCity":"New York","billToState":"NY","billToPhone":"(212) 123-9876","billToEmail":"john.doe@email.com","transactionAmount":"33.00","transactionCurrency":"USD","cardNumnber":"4111-1111-1111-1111","cardCVV":"123","cardExpMonth":"10","cardExpYear":"2024","cardType":"001"}
+
+ -- RequestURL -- 
+	URL : https://apitest.cybersource.com/pts/v2/payments
+
+ -- HTTP Headers -- 
+	Content-Type : application/json
+	v-c-merchant-id : vadda
+	Date : Sun, 25 Apr 2021 03:25:42 GMT
+	Host : apitest.cybersource.com
+	Digest : SHA-256=RDjoXV3xo/rwWyuMQnniXOA7JBGS2QhlHvCVI2xQgMs=
+	Signature : keyid="71d25056-3828-4354-9f1c-24118ad93f74", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="a1TNdsU+59u4zH16F21SRLMqaQ4WSZVR+eToUl4g6dQ="
+
+ -- Response Message -- 
+	Response Code :201
+	v-c-correlation-id :babf97d2-b03b-427e-8d3b-2115a625c04c
+
+
+Auth Response: {"id":"6193211434466667303005","code":0,"status":"AUTHORIZED","reconciliationId":"73240511ENP384TS","reason":null,"message":null}
+
+
+Capture Request: {"reference":"Order Number: 12345","paymentId":"6193211434466667303005","transactionAmount":"33.00","transactionCurrency":"USD"}
+
+ -- RequestURL -- 
+	URL : https://apitest.cybersource.com/pts/v2/payments/6193211434466667303005/captures
+
+ -- HTTP Headers -- 
+	Content-Type : application/json
+	v-c-merchant-id : vadda
+	Date : Sun, 25 Apr 2021 03:25:43 GMT
+	Host : apitest.cybersource.com
+	Digest : SHA-256=Q0efhWwjk4gB8jtR8MIorBSgJcNkFVSoRp6bdwRtiwY=
+	Signature : keyid="71d25056-3828-4354-9f1c-24118ad93f74", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="MF91djxH5GK3+wPbQZ1qm+9xOSf2CQV6NZFeeMEr6hk="
+
+ -- Response Message -- 
+	Response Code :201
+	v-c-correlation-id :d9be6d29-cf5a-4010-8c07-32f8b384a6de
+
+
+Capture Response: {"id":"6193211441686928103003","code":0,"status":"PENDING","reconciliationId":"73240511ENP384TS","reason":null,"message":null}
+
+
+Refund Request: {"reference":"Order Number: 12345","captureId":"6193211441686928103003","transactionAmount":"33.00","transactionCurrency":"USD"}
+
+ -- RequestURL -- 
+	URL : https://apitest.cybersource.com/pts/v2/captures/6193211441686928103003/refunds
+
+ -- HTTP Headers -- 
+	Content-Type : application/json
+	v-c-merchant-id : vadda
+	Date : Sun, 25 Apr 2021 03:25:44 GMT
+	Host : apitest.cybersource.com
+	Digest : SHA-256=Q0efhWwjk4gB8jtR8MIorBSgJcNkFVSoRp6bdwRtiwY=
+	Signature : keyid="71d25056-3828-4354-9f1c-24118ad93f74", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="qAqBu1xhxN3i+UWBbfIOLg+v3Bilrl+Da7n51vgArqs="
+
+ -- Response Message -- 
+	Response Code :201
+	v-c-correlation-id :efea5120-6833-4fe7-9c2a-5afa90c04fd5
+
+
+Refund Response: {"id":"6193211446436926603004","code":0,"status":"PENDING","reconciliationId":"73227030DNSHHYJQ","reason":null,"message":null}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
