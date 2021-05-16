@@ -107,7 +107,7 @@ class StarbucksRegisterController {
         //StarbucksRegister register = repository.findByRegister(regid);
         StarbucksRegister register = registersHash.get(regid);
 
-        // need to check for any active orders before deleting
+        // todo: need to check for any active orders before deleting
         if (register == null)
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error. Register Not Found!");
         
