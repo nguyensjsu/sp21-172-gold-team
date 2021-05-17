@@ -28,7 +28,7 @@ Note: For Online Store Front all of us helped each other. For example, Charles h
 ![]()
 ![]()
 ![]()
-## Payment API - Cybersource
+## Integration: Payment API - Cybersource
 ![]()
 ![]()
 ![]()
