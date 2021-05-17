@@ -16,4 +16,9 @@ public class PingController {
     public Ping ping() {
         return new Ping("Starbucks API version 1.0 alive!") ; 
     }
+
+    @GetMapping("/")
+    public String viewHome() {
+        return "balance" ; 
+    }
 }
