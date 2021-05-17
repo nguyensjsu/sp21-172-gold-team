@@ -11,7 +11,7 @@ Note: For Online Store Front all of us helped each other. For example, Charles h
 1. [Cashier's App & Backoffice Help Desk using Spring Security for User Authentication](#Cashier's-App-&-Backoffice-Help-Desk-using-Spring-Security-for-User-Authentication)
 2. [Online Store Front](#Online-Store-Front)
 3. [Rest API](#Rest-API)
-4. [Integrations (Payment API - Cybersource)](#Integrations-(Payment API-Cybersource)
+4. [Integrations (Payment API - Cybersource)](#Integrations-(Payment-API-Cybersource)
 5. [Cloud Deployment](#Cloud-Deployment)
 ## Cashier's App
 ![]()
