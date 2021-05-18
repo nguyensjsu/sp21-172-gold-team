@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cashier.css">
+    <title>Starbucks Cashier</title>
+</head>
+<body>
+    <h1 class="main-header">Welcome to Starbucks Reserved</h1>
+
+    <div class="input-body">
+    <label for="drink">Drink:</label>  
+    <select id="drink" >   <!-- added th:field="*{drink}" -->
+
+        <option value="latte">Latte</option>   <!-- changed value to th:value -->
+        <option value="cappuccino">Cappuccino</option>   <!-- changed value to th:value -->
+        <option value="iced-coffee">Iced Coffee</option>   <!-- changed value to th:value -->
+        <option value="mocha">Mocha</option>   <!-- changed value to th:value -->
+    </select>
+
+    <label for="milk">Milk:</label>
+    <select id="milk">   <!-- added th:field="*{milk}" -->
+        <option value="skim">Skim Milk</option>   <!-- changed value to th:value -->
+        <option value="two-percent">2%</option>   <!-- changed value to th:value -->
+        <option value="whole">Whole Milk</option>   <!-- changed value to th:value -->
+        <option value="soy">Soy Milk</option>   <!-- changed value to th:value -->
+    </select>
+
+    <label for="size">Size:</label>
+    <select id="size" >   <!-- added th:field="*{size}" -->
+        <option value="tall">Tall</option>   <!-- changed value to th:value -->
+        <option value="grande">Grande</option>   <!-- changed value to th:value -->
+        <option value="venti">Venti</option>   <!-- changed value to th:value -->
+    </select>
+
+    <p>Register: </p>
+    <p>Status: </p>
+    </div>
+
+    <div class="gen-container">
+    <label for="store">Select Store:</label>
+    <select id="store" >   <!-- added th:field="*{store}" -->
+        <option value="campbell">Campbell</option>   <!-- changed value to th:value -->
+        <option value="milpitas">Milpitas</option>   <!-- changed value to th:value -->
+        <option value="santa-clara">Santa Clara</option>   <!-- changed value to th:value -->
+    </select>
+    </div>
+
+    <div class="gen-container">
+    <img src="./roastery.jpeg" alt="Roastery Logo">
+    </div>
+
+    <div class="gen-container">
+    <button>Get Order</button>
+    <button>Place Order</button>
+    <button>Clear Order</button>
+    </div>
+
+
+    <div class="message">    <!-- Added div class="message" -->
+    <span th:text="${message}" />
+    </div>
+
+
+</body>
+</html>
