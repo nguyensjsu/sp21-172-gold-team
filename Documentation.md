@@ -35,6 +35,7 @@ The web should be running
 #### Service
 ![](Images/Starbucks-gold-SS10.PNG)
 #### Ingress
+![](Images/Starbucks-gold-SS23.PNG)
 
 ## Cashier's App
 For the cashier app, we created a web page (shown below) that the cashier can use to set options for a specific order. These options include dropdowns for: Drinks, Milk, Size, and Store. All the options may be cleared out using the ‘Clear Order’ button. 
@@ -61,7 +62,20 @@ The team used Spring Restful web service, most notably the annotation Restcontro
 
 #### .java
 ![](Images/Starbucks-gold-SS7.PNG)
-![]()
+
+#### Insomnia
+![](Images/Starbucks-gold-SS11.PNG)
+![](Images/Starbucks-gold-SS12.PNG)
+![](Images/Starbucks-gold-SS13.PNG)
+![](Images/Starbucks-gold-SS14.PNG)
+![](Images/Starbucks-gold-SS15.PNG)
+![](Images/Starbucks-gold-SS16.PNG)
+![](Images/Starbucks-gold-SS17.PNG)
+![](Images/Starbucks-gold-SS18.PNG)
+![](Images/Starbucks-gold-SS19.PNG)
+![](Images/Starbucks-gold-SS20.PNG)
+![](Images/Starbucks-gold-SS21.PNG)
+![](Images/Starbucks-gold-SS22.PNG)
 
 ## Payment API
 Payment Api was created by integrating lab7 into our code. It remains relatively unchanged but maintains its consistency. It successfully activates but it doesn’t link to the backend; therefore, the team could not load money into the giftcards. 
