@@ -21,12 +21,12 @@ Most of the time, our project constraint on the time. All the developers working
 
 ## Cloud Deployment
 For cloud deployment, we used the lab10 method. To deploy our app:
-The team loaded a Github repository with the project source code and other additional files such as all the yaml files. 
-The team used lab 10 as a template to create the google.yml and gradle.yml for the respective workflows. 
-The team made a code release to automate the deployment process to a production environment; that is the kubernetes cluster on google cloud. 
-The team created an ingress or load-balancer portion from the service part.
-Click on the link given in ingress
-The web should be running
+i. The team loaded a Github repository with the project source code and other additional files such as all the yaml files. <br/>
+ii. The team used lab 10 as a template to create the google.yml and gradle.yml for the respective workflows. <br/>
+iii. The team made a code release to automate the deployment process to a production environment; that is the kubernetes cluster on google cloud.  <br/>
+iv. The team created an ingress or load-balancer portion from the service part.  <br/>
+Click on the link given in ingress  <br/>
+The web should be running  <br/>
 
 #### Cluster
 ![](Images/Starbucks-gold-SS8.PNG)
@@ -41,7 +41,6 @@ The web should be running
 For the cashier app, we created a web page (shown below) that the cashier can use to set options for a specific order. These options include dropdowns for: Drinks, Milk, Size, and Store. All the options may be cleared out using the ‘Clear Order’ button. 
 
 Once a customization is selected, the cashier can click on ‘Place Order’ which will be routed via our REST API to POST an order. Once an order is posted, it will be processed by our backend to save the details in our SQL database.
-![Starbucks Cashier APP](images/cashier)
 ![](Images/Starbucks-gold-SS6.PNG)
 
 ## Online Store Front
