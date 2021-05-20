@@ -58,11 +58,14 @@ For the frontend, we were ambitious and wanted our starbucks api to look exactly
 
 ## Rest API
 The team used Spring Restful web service, most notably the annotation Restcontroller. Using web annotations such as GetMapping and PostMapping, the team was able to route the HTTP respective requests to their mapped destinations.
+
+#### .java
 ![](Images/Starbucks-gold-SS7.PNG)
 ![]()
 
 ## Payment API
 Payment Api was created by integrating lab7 into our code. It remains relatively unchanged but maintains its consistency. It successfully activates but it doesn’t link to the backend; therefore, the team could not load money into the giftcards. 
+#### Payment form
 ![](Images/Starbucks-gold-SS4.PNG)
 
 ## Closing Thoughts
