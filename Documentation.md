@@ -28,37 +28,35 @@ The team created an ingress or load-balancer portion from the service part.
 Click on the link given in ingress
 The web should be running
 
+![](Images/Starbucks-gold-SS8.PNG)
+![](Images/Starbucks-gold-SS9.PNG)
+![](Images/Starbucks-gold-SS10.PNG)
+
 ## Cashier's App
 For the cashier app, we created a web page (shown below) that the cashier can use to set options for a specific order. These options include dropdowns for: Drinks, Milk, Size, and Store. All the options may be cleared out using the ‘Clear Order’ button. 
 
 Once a customization is selected, the cashier can click on ‘Place Order’ which will be routed via our REST API to POST an order. Once an order is posted, it will be processed by our backend to save the details in our SQL database.
 ![Starbucks Cashier APP](images/cashier)
-![Cloud Version](images/cashier-cloud)
+![](Images/Starbucks-gold-SS6.PNG)
 
 ## Online Store Front
 For the backend of the storefront, we used Lab 6 as our foundation and reused most of its code. We developed the starbucks register repository and controller java files. Modifications were made in the lab 6 starbucks order and card java files to implement the rewards for users. We also developed User repository and controller java files. 
 For the frontend, we were ambitious and wanted our starbucks api to look exactly like the professor showed in the demo and screenshots in the assignment description. None of us felt comfortable working with html, css or javascript. After researching we found out that software like figma and Adobe XD can generate code using web export plugins. This seemed very feasible, but while connecting the frontend with the backend we realized that we made it too complicated for us. Adding thymeleaf got complicated, and the team encountered a great amount of difficulties when implementing the various thymeleaf attributes. The team noticed that the spring web annotation Restcontroller was not compatible with thymeleaf attributes. In order to resolve these issues, we would have to refactor a large amount of our app.
 
-![]()
-![]()
-![]()
+![](Images/Starbucks-gold-SS1.PNG)
+![](Images/Starbucks-gold-SS2.PNG)
+![](Images/Starbucks-gold-SS3.PNG)
+![](Images/Starbucks-gold-SS5.PNG)
 ![]()
 ## Rest API
 The team used Spring Restful web service, most notably the annotation Restcontroller. Using web annotations such as GetMapping and PostMapping, the team was able to route the HTTP respective requests to their mapped destinations.
-![]()
-![]()
-![]()
-![]()
-## Payment API
-Payment Api was created by integrating lab7 into our code. It remains relatively unchanged but maintains its consistency. It successfully activates but it doesn’t link to the backend; therefore, the team could not load money into the giftcards. 
-![]()
-![]()
-![]()
+![](Images/Starbucks-gold-SS7.PNG)
 ![]()
 
-![]()
-![]()
-![]()
+## Payment API
+Payment Api was created by integrating lab7 into our code. It remains relatively unchanged but maintains its consistency. It successfully activates but it doesn’t link to the backend; therefore, the team could not load money into the giftcards. 
+![](Images/Starbucks-gold-SS4.PNG)
+
 ## Closing Thoughts
 While some of the project was not fully realized, the team did learn a great deal about the Spring MVC, Spring Rest, Cybersource and other components. The team more effectively understands that continuous communication is essential and the learning process is not always a straightforward goal.
 
