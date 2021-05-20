@@ -28,9 +28,13 @@ The team created an ingress or load-balancer portion from the service part.
 Click on the link given in ingress
 The web should be running
 
+#### Cluster
 ![](Images/Starbucks-gold-SS8.PNG)
+#### Workload
 ![](Images/Starbucks-gold-SS9.PNG)
+#### Service
 ![](Images/Starbucks-gold-SS10.PNG)
+#### Ingress
 
 ## Cashier's App
 For the cashier app, we created a web page (shown below) that the cashier can use to set options for a specific order. These options include dropdowns for: Drinks, Milk, Size, and Store. All the options may be cleared out using the ‘Clear Order’ button. 
@@ -43,11 +47,15 @@ Once a customization is selected, the cashier can click on ‘Place Order’ whi
 For the backend of the storefront, we used Lab 6 as our foundation and reused most of its code. We developed the starbucks register repository and controller java files. Modifications were made in the lab 6 starbucks order and card java files to implement the rewards for users. We also developed User repository and controller java files. 
 For the frontend, we were ambitious and wanted our starbucks api to look exactly like the professor showed in the demo and screenshots in the assignment description. None of us felt comfortable working with html, css or javascript. After researching we found out that software like figma and Adobe XD can generate code using web export plugins. This seemed very feasible, but while connecting the frontend with the backend we realized that we made it too complicated for us. Adding thymeleaf got complicated, and the team encountered a great amount of difficulties when implementing the various thymeleaf attributes. The team noticed that the spring web annotation Restcontroller was not compatible with thymeleaf attributes. In order to resolve these issues, we would have to refactor a large amount of our app.
 
+#### Landing
 ![](Images/Starbucks-gold-SS1.PNG)
+#### Menu
 ![](Images/Starbucks-gold-SS2.PNG)
+#### Sign Up
 ![](Images/Starbucks-gold-SS3.PNG)
+#### Gift Cards
 ![](Images/Starbucks-gold-SS5.PNG)
-![]()
+
 ## Rest API
 The team used Spring Restful web service, most notably the annotation Restcontroller. Using web annotations such as GetMapping and PostMapping, the team was able to route the HTTP respective requests to their mapped destinations.
 ![](Images/Starbucks-gold-SS7.PNG)
